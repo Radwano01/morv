@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
-import "../css/scrollbar.css"; // Import custom scrollbar styles
+import "../css/ScrollBar.css";
 
 export default function PrivacyPolicy() {
   const navigate = useNavigate();
