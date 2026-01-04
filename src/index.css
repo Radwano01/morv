@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Lovelo';
+  src: url('/src/assets/fonts/lovelo/Lovelo_Black.otf') format('truetype');
+  font-weight: 900;
+  /* Black weight */
+  font-style: normal;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

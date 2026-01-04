@@ -1,0 +1,50 @@
+[
+  {
+    "id": "web-development",
+    "title": "Web Development",
+    "shortDesc": "Build responsive, fast, and modern websites.",
+    "fullDesc": "We create fully responsive and high-performance websites tailored to your business needs. From front-end to back-end, our development team ensures seamless user experiences, optimized loading times, and scalable architecture. We specialize in modern frameworks and technologies that keep your website secure, fast, and visually appealing. Whether you need an e-commerce platform, a corporate website, or a custom web application, we provide end-to-end solutions that meet your goals and enhance your online presence."
+  },
+  {
+    "id": "ui-ux-design",
+    "title": "UI / UX Design",
+    "shortDesc": "Design beautiful and intuitive interfaces.",
+    "fullDesc": "Our UI/UX designers craft visually appealing and user-friendly interfaces that enhance user engagement. We focus on wireframes, prototypes, and interactive designs that align with your brand and business goals. By conducting user research and usability testing, we ensure that every interface is intuitive, accessible, and optimized for conversion. From mobile apps to web platforms, our designs create seamless interactions that delight your users and strengthen your brand identity."
+  },
+  {
+    "id": "branding",
+    "title": "Branding",
+    "shortDesc": "Create a memorable brand identity.",
+    "fullDesc": "We help businesses define and communicate their brand identity through logos, color schemes, typography, and messaging. Our branding strategies ensure your brand stands out and resonates with your audience. By combining creativity with market insights, we craft a consistent and compelling brand image across all platforms. From brand strategy to visual identity, we help you establish trust, recognition, and loyalty among your customers."
+  },
+  {
+    "id": "motion-3d",
+    "title": "Motion & 3D",
+    "shortDesc": "Engage users with motion graphics and 3D visuals.",
+    "fullDesc": "Our team produces dynamic motion graphics and 3D animations for advertisements, presentations, and websites. These visual elements help communicate ideas more effectively and keep your audience engaged. Using cutting-edge software and creative storytelling, we bring concepts to life with realistic animations, visual effects, and interactive elements. Motion and 3D graphics are powerful tools to explain complex ideas, captivate viewers, and enhance your digital content."
+  },
+  {
+    "id": "paid-ads-services",
+    "title": "Paid Ads Services",
+    "shortDesc": "Boost your business with targeted ad campaigns.",
+    "fullDesc": "We manage paid advertising campaigns across platforms like Google Ads, Facebook, and Instagram. Our experts optimize your campaigns to maximize ROI, target the right audience, and increase conversions. We conduct thorough research, create compelling ad creatives, and continuously monitor performance to ensure cost-effective results. From small businesses to large enterprises, our paid ad strategies drive traffic, generate leads, and grow your online presence efficiently."
+  },
+  {
+    "id": "shooting-services",
+    "title": "Shooting Services",
+    "shortDesc": "Professional photography and videography.",
+    "fullDesc": "We provide high-quality photography and videography services for events, products, and promotional content. Our team captures the essence of your brand with creativity and precision. From pre-production planning to post-production editing, we deliver visuals that are engaging, professional, and tailored to your objectives. Whether it's commercial shoots, events, or product showcases, our work elevates your brand’s visual storytelling."
+  },
+  {
+    "id": "graphic-design-services",
+    "title": "Graphic Design Services",
+    "shortDesc": "Creative designs for digital and print media.",
+    "fullDesc": "Our graphic design team creates visually compelling content for websites, social media, marketing materials, and print. We focus on delivering designs that are both aesthetic and aligned with your brand. From logos and brochures to social media posts and infographics, we ensure that every design communicates your message clearly and attractively. Our goal is to make your brand visually stand out while maintaining consistency and professionalism across all mediums."
+  },
+  {
+    "id": "photo-section",
+    "title": "Photo Section",
+    "shortDesc": "Showcase your visuals beautifully.",
+    "fullDesc": "We curate and present your photos in an engaging and professional way. Our photo sections enhance the user experience and highlight your products, events, or projects with style. We focus on layout, color balance, and storytelling to ensure that every photo resonates with your audience. Whether for portfolios, galleries, or promotional campaigns, our photo sections create visually impactful experiences that leave a lasting impression."
+  }
+]

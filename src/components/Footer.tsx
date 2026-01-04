@@ -1,0 +1,92 @@
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import logo from "../assets/logo3.png";
+
+export default function Footer() {
+  return (
+    <footer className="bg-black text-gray-400">
+      {/* White line above footer */}
+      <div className="w-full h-px bg-white/30" />
+
+      <div className="max-w-7xl mx-auto px-6 py-16">
+        {/* MAIN GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
+
+          {/* Brand */}
+          <div className="md:col-span-1">
+            <div className="flex items-center gap-3 mb-4">
+              <img src={logo} alt="Mordev logo" className="w-7 h-7 object-contain" />
+              <span className="text-white font-semibold text-lg">Mordev Arcane</span>
+            </div>
+
+            <p className="text-sm leading-relaxed">
+              20619 Torrence Chapel Rd <br />
+              Suite 116 #1040 <br />
+              Cornelius, NC 28031 <br />
+              United States
+            </p>
+
+            <div className="mt-4 text-sm space-y-1">
+              <p>
+                Phone number <br />
+                <span className="text-white">1-800-201-1019</span>
+              </p>
+              <p>
+                Email <br />
+                <span className="text-white">support@mordev.com</span>
+              </p>
+            </div>
+          </div>
+
+          {/* SERVICES */}
+          <div className="md:col-span-2">
+            <h4 className="text-white font-medium mb-6">Services</h4>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-3 text-sm">
+              <span className="hover:text-white cursor-pointer">Web Development</span>
+              <span className="hover:text-white cursor-pointer">Motion & 3D</span>
+              <span className="hover:text-white cursor-pointer">UI / UX Design</span>
+              <span className="hover:text-white cursor-pointer">Paid Ads Services</span>
+              <span className="hover:text-white cursor-pointer">Branding</span>
+              <span className="hover:text-white cursor-pointer">Shooting Services</span>
+              <span className="hover:text-white cursor-pointer">Graphic Design Services</span>
+              <span className="hover:text-white cursor-pointer">Photo Section</span>
+            </div>
+          </div>
+
+          {/* Social */}
+          <div>
+            <h4 className="text-white font-medium mb-4">Social</h4>
+            <ul className="flex flex-col gap-3 text-sm">
+              <li className="hover:text-white cursor-pointer flex items-center gap-2"><FaFacebookF /> Facebook</li>
+              <li className="hover:text-white cursor-pointer flex items-center gap-2"><FaInstagram /> Instagram</li>
+              <li className="hover:text-white cursor-pointer flex items-center gap-2"><FaLinkedinIn /> LinkedIn</li>
+              <li className="hover:text-white cursor-pointer flex items-center gap-2"><FaTwitter /> Twitter</li>
+              <li className="hover:text-white cursor-pointer flex items-center gap-2"><FaYoutube /> YouTube</li>
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h4 className="text-white font-medium mb-4">Legal</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link
+                  to="/privacy-policy"
+                  className="hover:text-white transition cursor-pointer"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom */}
+        <div className="mt-16 text-center text-xs text-gray-500">
+          © 2026 Mordev Arcane. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  );
+}
